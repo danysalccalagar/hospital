@@ -1,0 +1,116 @@
+.cities{
+    background-color:black;
+    color:white;
+    margin:20 px;
+    padding: 20px;
+}
+h4{
+    border:10px solid;
+    background-color:ghostwhite;
+    margin:4px;
+    padding:40;
+    color:deeppink;
+   
+}
+table{ 
+   font-family: arial,sans-serif;
+   border-collapse: collapse;
+   width: 100%
+   }
+td,th{
+    border: 2px solid #dddddd;
+    text-emphasis: none;
+    padding: 10px;
+    
+   }
+   th{
+       background-color:black;
+      
+       border:9px;
+       padding: 10px;
+       margin: 10px;
+       color:cornsilk;
+       
+       
+   }
+   td{
+       background-color:darkmagenta;
+       
+       border: 9px solid;
+       padding: 10px;
+       margin: 10px;
+       color:white;
+
+   }
+   #dany{
+       width: 0px;
+       height: 0px;
+       border:100px solid;
+      border-color: yellow transparent yellow yellow;
+      border-radius: 50%;
+      margin: 0 auto;
+   }
+   #dan{
+    border:20px solid;
+    border-color: green;
+   border-radius:50%;
+   margin-top:-80px;
+   margin-left: -40px;
+   }
+   #box{
+       --border-radius-x:70px;
+       --border-radius-y:100px;
+       width: 200px;
+       height: 120px;
+       background: red;
+       margin:10px auto;
+       border-top-left-radius: var(--border-radius-x)  var(--border-radius-y);
+       border-top-right-radius:var(--border-radius-x)  var(--border-radius-y) ;
+       border-bottom-left-radius:var(--border-radius-x)  var(--border-radius-y) ;
+       border-bottom-right-radius: var(--border-radius-x)  var(--border-radius-y);
+       
+   }
+   .eg{
+    width: 12px;
+        height: 1px;
+        border:40px solid;
+        position: absolute;
+       border-color: transparent transparent transparent white;
+   background-position: center;
+   margin: 15px 0px 0px 90px;
+     
+   }
+   
+  .todo{
+       counter-reset: the;
+   }
+   .the{
+       counter-increment: the;
+       list-style: none;
+       list-style-type:inline;
+       color:red;
+   }
+   .the::before{
+       content: counter(the) '.';
+   }
+   
+   h6{
+       
+    font-weight: bold;
+    font-style:italic;
+    
+    border-style: dotted;
+    text-align: rileftght;
+   }
+  .the{
+    color:green;
+    list-style-type: square;
+  }
+  .divs{
+    box-shadow: 20px 10px 2px red;
+text-shadow: 20px 10px 1px green;
+
+
+
+
+  }

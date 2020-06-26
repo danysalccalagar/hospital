@@ -1,0 +1,491 @@
+.bora {
+    width: 545px;
+    height: 160px;
+    z-index: 1;
+    top: 0px;
+    left: 610px;
+    margin: 0 auto;
+    position: absolute;
+    background-color: white;
+}
+
+.espaldar {
+    top: 150px;
+    left: 645px;
+    position: absolute;
+    width: 80px;
+    height: 520px;
+    border: 1px solid black;
+    background-image: linear-gradient(rgb(255, 102, 0), rgb(240, 173, 85));
+    transform: skewY(68deg);
+
+}
+
+.cajas {
+    width: 545px;
+    height: 98px;
+    z-index: 1;
+    box-shadow: 30px 20px 60px black;
+    top: 160px;
+    left: 683px;
+    margin: 0 auto;
+    position: absolute;
+    border: 2px solid #000000;
+    transform: skewX(40deg);
+    background-image: linear-gradient(rgb(255, 102, 0), rgb(240, 173, 85));
+
+}
+
+.sostenedor {
+    width: 500px;
+    height: 250px;
+    z-index: 1;
+    top: 250px;
+    box-shadow: 30px 20px 60px black;
+    left: 720px;
+    position: absolute;
+    border: 2px solid #000000;
+    background-image: linear-gradient(rgb(255, 102, 0), rgb(240, 173, 85));
+}
+
+.estante {
+    border: 2px solid #000000;
+    width: 500px;
+    height: 220px;
+    z-index: 1;
+    top: 495px;
+    /*para adelante*/
+
+    position: relative;
+    left: 775px;
+    box-shadow: 30px 20px 60px black;
+    background-image: linear-gradient(rgb(255, 102, 0), rgb(240, 173, 85));
+    transform: rotate(20deg);
+    transform: skewX(30deg);
+
+}
+
+.contenedor {
+
+    width: 500px;
+    height: 300px;
+    z-index: 1;
+    top: 410px;
+
+    left: 770px;
+    position: absolute;
+
+
+}
+
+.table {
+    top: 720px;
+    left: 848px;
+    position: absolute;
+    width: 490px;
+    box-shadow: 30px 20px 60px black;
+    height: 270px;
+    border: 1px solid black;
+    background-image: linear-gradient(rgb(255, 102, 0), rgb(240, 173, 85));
+}
+
+.table2 {
+    top: 600px;
+    left: 725px;
+    position: absolute;
+    width: 125px;
+    height: 280px;
+    border: 1px solid black;
+    background-image: linear-gradient(rgb(255, 102, 0), rgb(240, 173, 85));
+
+    transform: skewX(200deg);
+    transform: skewY(60deg);
+}
+
+.cpu {
+    position: absolute;
+    width: 100px;
+    box-shadow: 15px -1px 1px black;
+  
+    height: 200px;
+    border: 2px solid white;
+    top: 10px;
+    left: 350px;
+    z-index: 1;
+    background-color: black;
+
+}
+
+.monitor {
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    box-shadow: 30px 20px 60px black;
+    border: 5px solid #000000;
+    top: 30px;
+    left: 80px;
+    z-index: 1;
+    background-color: rgb(240, 233, 233);
+    border-radius: 5%;
+}
+
+.espa {
+    width: 20px;
+    height: 15px;
+}
+
+.agarador {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    border: 5px solid black;
+    top: -28px;
+    box-shadow: 30px 20px 60px black;
+    left: 24px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    z-index: 1;
+    background-color: black;
+}
+
+.position {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    border: solid #000000;
+    border-radius: 40%;
+    top: 100px;
+    left: 28px;
+    z-index: 1;
+    background-color: white;
+}
+
+.teclado {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    border: 3px solid #000000;
+    top: 190px;
+    left: 65px;
+    z-index: 1;
+    background-color: blue;
+    border-radius: 10%;
+
+}
+
+.mause {
+    position: absolute;
+    width: 30px;
+    height: 45px;
+    border: 2px solid #000000;
+    border-radius: 30%;
+    top: 180px;
+    left: 300px;
+    z-index: 1;
+    background-color: black;
+}
+
+.div1 {
+    position: absolute;
+    height: 15px;
+    width: 13px;
+    background-color: white;
+    border-top-left-radius: 50%;
+    border: 1px solid black;
+
+}
+
+.div2 {
+    position: absolute;
+    height: 15px;
+    width: 13px;
+    background-color: white;
+    border-top-right-radius: 50%;
+    left: 13px;
+    border: 1px solid black;
+
+}
+
+.caset {
+    position: absolute;
+    height: 10px;
+    width: 60px;
+    background-color: white;
+    top: 150px;
+    left: 18px;
+}
+
+.usb {
+    position: absolute;
+    height: 5px;
+    width: 20px;
+    background-color: white;
+    top: 120px;
+    left: 25px;
+}
+
+.usb1 {
+    position: absolute;
+    height: 5px;
+    width: 20px;
+    background-color: white;
+    top: 120px;
+    left: 50px;
+}
+
+.div1:hover {
+    background-color: blue;
+}
+
+.div2:hover {
+    background-color: red;
+}
+
+
+.a {
+    width: 50px;
+    height: 50px;
+}
+
+.pata {
+    left: 870px;
+    width: 20px;
+    border-radius: 10%;
+    border: 2px solid black;
+    top: 990px;
+    position: absolute;
+    height: 30px;
+    background-image: linear-gradient(rgb(255, 102, 0), rgb(240, 173, 85));
+}
+
+.pata1 {
+    left: 1300px;
+    width: 20px;
+    border-radius: 10%;
+    border: 2px solid black;
+    top: 990px;
+    position: absolute;
+    height: 30px;
+    background-image: linear-gradient(rgb(255, 102, 0), rgb(240, 173, 85));
+}
+
+.pata2 {
+    left: 650px;
+    width: 20px;
+    border-radius: 10%;
+    top: 580px;
+    position: absolute;
+    height: 60px;
+    background-image: linear-gradient(rgb(255, 102, 0), rgb(240, 173, 85));
+}
+
+@keyframes movercaset {
+    form {}
+
+    to {
+        left: 5px;
+        top: 152px;
+        box-shadow: 3px -11px 1px white;
+        transform: skewX(-13deg);
+
+    }
+}
+
+.caset:hover {
+    animation-name: movercaset;
+    animation-duration: 1s;
+}
+
+@keyframes mover {
+    form {}
+
+    to {
+        background-color: rgb(46, 135, 170);
+
+
+
+    }
+}
+
+.monitor:hover {
+    animation-name: mover;
+    animation-duration: 5s;
+}
+
+@keyframes mover1 {
+    form {}
+
+    to {
+        left: 260px;
+        background-image: linear-gradient(red, blue);
+    }
+}
+
+.mause:hover {
+    animation: mover1 .75s linear infinite;
+}
+
+@keyframes moverteclado {
+    form {}
+
+    to {
+        background-image: linear-gradient(rgb(0, 255, 200), rgb(35, 236, 35), rgb(208, 255, 0));
+    }
+}
+
+.teclado:hover {
+
+
+    animation: moverteclado .75s linear infinite;
+}
+
+
+@keyframes spinner-border {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner-border {
+    display: inline-block;
+    border: solid 0.5px;
+    border-top-color: transparent;
+    border-radius: 50%;
+    top: -10em;
+    animation: spinner-border .75s linear infinite;
+}
+
+.spinner-border-sm {
+    width: 15px;
+
+    height: 15px;
+    border-width: 0.5em;
+    color: rgb(70, 233, 70);
+    background-color: black;
+}
+
+@keyframes spinner-border1 {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner-border1 {
+    display: inline-block;
+    border: solid 0.5px;
+    border-top-color: transparent;
+    border-radius: 50%;
+    top: -10em;
+    animation: spinner-border1 .75s linear infinite;
+}
+
+.spinner-border-sm1 {
+    width: 15px;
+
+    height: 15px;
+    border-width: 0.5em;
+    color: blue;
+    background-color: white;
+}
+
+.encender {
+
+    display: inline-block;
+    color: #000000;
+    font-weight: bold;
+}
+
+.cable {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    left: 220px;
+    top: 40px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.cable1 {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    left: 220px;
+    top: 160px;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+.div3{
+    height: 12px;
+    border:2px solid black;
+    border-radius: 10%;
+}
+.div4{
+    height: 12px;
+    top:5px;
+    border:2px solid black;
+}
+.div5{
+    height: 12px;
+    top:10px;
+    border:2px solid black;
+}
+.div6{
+    position: absolute;
+    top:-4px;
+    width: 30px;
+    height: 50px;
+    border:2px solid black;
+    
+}
+.div7{
+    position: absolute;
+    top:-4px;
+    width: 30px;
+    height: 50px;
+    left: 30px;
+    border:2px solid black;
+    
+}
+.div8{
+    position: absolute;
+    top:-4px;
+    width: 30px;
+    height: 50px;
+    left:60px;
+    border:2px solid black;
+    
+}
+.div9{
+    position: absolute;
+    top:-4px;
+    width: 30px;
+    height: 50px;
+    left:90px;
+    border:2px solid black;
+    
+}
+.div10{
+    position: absolute;
+    top:-4px;
+    width: 30px;
+    left:120px;
+    height: 50px;
+    border:2px solid black;
+    
+}
+.div11{
+    position: absolute;
+    top:-4px;
+    width: 30px;
+    left:150px;
+    height: 50px;
+    border-radius: 10%;
+    border:2px solid black;
+    
+}
